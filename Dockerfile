@@ -1,4 +1,4 @@
-# Use an official Maven image as the base image
+# Use an official Maven image as the base imag
 FROM maven:3.8.4-openjdk-11-slim AS build
 # Set the working directory in the container
 WORKDIR /app
